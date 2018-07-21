@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Caricatures By Elissa</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="jquery.js"></script>
+  <script src="scripts/scripts.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto+Mono" rel="stylesheet">
+
+
+
+</head>
+
+
+<body>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"> </div>
+          <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+
+            <img src ="Images/mums_logo.jpg" class="logo">
+
+<h1 class="applyFont">ENQUIRIES</h1>
+
+<form id="my_form" onsubmit="submitForm(); return false;">
+<label>Full Name<div id="redstar">*<span class="tooltiptext">Required</span></div></label>
+<br>
+<input type ="text" class ="inputBox" id="customer-name"><br>
+
+<label>Email <div id="redstar">*<span class="tooltiptext">Required</span></div></label><br>
+<input type ="email" class ="inputBox" id="customer-email"><br>
+
+<label>Description <div id="redstar">*<span class="tooltiptext">Required</span></div></label><br>
+<textarea class ="inputBox" id="description-box"></textarea><br>
+
+
+
+
+<label>Upload Image <div id="redstar">*<span class="tooltiptext">Required</span></div></label><br>
+<input type ="file" onchange="showImage.call(this)">
+
+<img src="" id="uploaded-image">
+
+<p><input id="mybtn" type="submit" value="Submit Form"> <span id="status"></span></p>
+
+
+</form>
+
+
+
+
+
+
+                    </div>
+
+
+
+
+
+
+
+
+
+        </div>
+
+        </div>
+          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+
+        </div>
+      </div>
+
+
+
+</body>
+
+
+</html>
